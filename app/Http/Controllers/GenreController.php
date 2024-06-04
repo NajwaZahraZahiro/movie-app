@@ -10,6 +10,35 @@ class GenreController extends Controller
     {
        
         $genres = Genre::all();
-        return view('genre', compact('genres'));
+        return view('genres.genre', compact('genres'));
+    }
+
+
+
+    public function create()
+    {
+        
+        return view('genres.create', );
+    }
+
+
+    public function store(Request $request)
+    {
+        $validatedData = $request->validate([
+            'name' => 'required',
+            'description' => 'required',
+           
+        ]);
+    
+        Genre::create($validatedData);
+    
+        return redirect('/genres')->with('success', 'Genre added successfully!');
+    }
+
+    public function destroy(Genre $genre)
+    {
+        $genre->delete();
+        return redirect('/genres')->with('success', 'Genre deleted successfully!');
     }
 }
+
