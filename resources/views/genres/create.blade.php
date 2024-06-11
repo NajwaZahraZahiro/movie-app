@@ -60,30 +60,33 @@
                     <form action="/genres" method="POST">
                         @csrf
                         <div class="p-6.5">
+                            
+
+                          
                             <div class="mb-4.5">
-                                <label class="mb-3 block text-sm font-medium text-black dark:text-white"> Name <span class="text-meta-1">*</span> </label>
+                               
+                                <label class="mb-3 block text-sm font-medium text-black dark:text-white"> name <span class="text-meta-1">*</span> </label>
+                                <div x-data="{ isOptionSelected: false }" class="relative z-20 bg-transparent dark:bg-form-input">
+                                    <span class="text-meta-1">*</span> 
+                                </label>
                                 <input
                                     id="name"
                                     name="name"
                                     type="text"
-                                    placeholder="Enter anime title"
+                                    placeholder="Enter nama penonton"
                                     class="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 font-normal text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
                                 />
                             </div>
 
-                           
-                            <div class="mb-4.5">
-                                <label class="mb-3 block text-sm font-medium text-black dark:text-white"> 
-                                    Description
-                                    <span class="text-meta-1">*</span> 
-                                </label>
-                                <input
+                            <div class="mb-6">
+                                <label class="mb-3 block text-sm font-medium text-black dark:text-white"> description <span class="text-meta-1">*</span> </label>
+                                <textarea
                                     id="description"
                                     name="description"
-                                    type="text"
-                                    placeholder="Enter poster link"
+                                   type="text"
+                                    placeholder="Type anime rating"
                                     class="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 font-normal text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
-                                />
+                                ></textarea>
                             </div>
 
                           
