@@ -4,18 +4,18 @@
 <!-- ===== Main Content Start ===== -->
 <main>
     <div class="mx-auto max-w-screen-2xl p-4 md:p-6 2xl:p-10">
-        <h2 class="mb-7.5 mt-10 text-title-md2 font-bold text-black dark:text-white">
+        <h2 class="mb-7.5 mt-10 text-title-md2 font-bold text-black">
             Movie List
         </h2>
 
         <div class="grid grid-cols-1 gap-7.5 sm:grid-cols-2 xl:grid-cols-4">
-            <div class="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+            <div class="rounded-sm border border-stroke bg-white shadow-default">
                 <a href="#" class="block px-4 pt-4">
                     <img class="object-cover h-60 w-96" src="src/images/movie/movie-01.jpg" alt="Movies" />
                 </a>
 
                 <div class="p-6 overflow-hidden">
-                    <h4 class="mb-3 text-xl font-semibold text-black dark:text-white">
+                    <h4 class="mb-3 text-xl font-semibold text-black">
                         <a href="#">Jojo Adventure</a>
                     </h4>
                     <p class="font-medium">
@@ -24,13 +24,13 @@
                 </div>
             </div>
 
-            <div class="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+            <div class="rounded-sm border border-stroke bg-white shadow-default">
                 <a href="#" class="block px-4 pt-4">
                     <img class="object-cover h-60 w-96" src="src/images/movie/movie-02.jpg" alt="Cards" />
                 </a>
 
                 <div class="p-6 overflow-hidden">
-                    <h4 class="mb-3 text-xl font-semibold text-black dark:text-white">
+                    <h4 class="mb-3 text-xl font-semibold text-black">
                         <a href="#">Noragami</a>
                     </h4>
                     <p class="font-medium">
@@ -39,13 +39,13 @@
                 </div>
             </div>
 
-            <div class="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+            <div class="rounded-sm border border-stroke bg-white shadow-default">
                 <a href="#" class="block px-4 pt-4">
                     <img class="object-cover h-60 w-96" src="src/images/movie/movie-03.jpg" alt="Cards" />
                 </a>
 
                 <div class="p-6 overflow-hidden">
-                    <h4 class="mb-3 text-xl font-semibold text-black dark:text-white">
+                    <h4 class="mb-3 text-xl font-semibold text-black">
                         <a href="#">Wind Breaker</a>
                     </h4>
                     <p class="font-medium">
@@ -54,13 +54,13 @@
                 </div>
             </div>
 
-            <div class="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+            <div class="rounded-sm border border-stroke bg-white shadow-default">
                 <a href="#" class="block px-4 pt-4">
                     <img class="object-cover h-60 w-96" src="src/images/movie/movie-04.jpg" alt="Cards" />
                 </a>
 
                 <div class="p-6 overflow-hidden">
-                    <h4 class="mb-3 text-xl font-semibold text-black dark:text-white">
+                    <h4 class="mb-3 text-xl font-semibold text-black">
                         <a href="#">Spy x Family</a>
                     </h4>
                     <p class="font-medium">
